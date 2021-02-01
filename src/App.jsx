@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, { useState, useRef } from "react"
+import React, { useState, useRef , useEffect} from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -9,6 +9,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const [userPosts, setPost] = useState([]);
   var updatedValue = useRef();
+
+  
+useEffect(()=>{
+  var userPosts = JSON.parse(localStorage.getItem("userPosts"));
+  setPost(userPosts);
+},[])
+
   function post(e) {
     e.preventDefault();
     var new_post = userPosts.push({
@@ -17,14 +24,18 @@ function App() {
       edit: false,
     })
     setPost([...userPosts], new_post)
+    localStorage.setItem("userPosts",JSON.stringify(userPosts));
     document.getElementById("username").value = " "
     document.getElementById("userpost").value = " "
+
   }
+
   function deleteItem(index) {
     var old_posts = [...userPosts];
     old_posts.splice(index, 1);
     setPost(old_posts);
   }
+
   function updateValue(index) {
     console.log("updated value is = > ", updatedValue);
     var old_post = [...userPosts];
