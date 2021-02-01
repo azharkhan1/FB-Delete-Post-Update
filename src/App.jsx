@@ -47,8 +47,7 @@ function App() {
             <input
               placeholder="Enter your name"
               id="username"
-            >
-            </input>
+            />
 
             <br />
 
@@ -56,8 +55,8 @@ function App() {
               id="userpost"
               placeholder="Enter post"
             // onChange={(e) => e.target.value = post}
-            >
-            </input>
+            />
+      
             <br />
           </div>
           <button type="submit" className="btn btn-primary">Post</button>
@@ -88,14 +87,14 @@ function App() {
                   <img className="postImage" />
                   <button
                     className="btn btn-primary"
-                    onClick={(e) => deleteItem(index)}
+                    onClick={(e)=> deleteItem(index)}
                   >Delete Post</button>
-                  {value.edit === true ? <input className="mt-2" placeholder="enter value to update" ref={updatedValue}  ></input> : ""}
+                  {value.edit === true ? <input className="mt-2" placeholder="enter value to update" ref={updatedValue} /> : ""}
                   {value.edit === true ? <button className="mt-2" onClick={(e) => updateValue(index)}>Update value</button> : ""}
                   {
                     value.edit === false
-
-                      ? <button
+                      ? 
+                      <button
                         className="mt-2"
                         onClick={(e) => editValue(index)}
                       >Edit value</button>
