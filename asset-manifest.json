@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/azharkhan1/FB-Delete-Post-Update.git/static/css/main.0a518d90.chunk.css",
-    "main.js": "/azharkhan1/FB-Delete-Post-Update.git/static/js/main.7ccb9705.chunk.js",
-    "main.js.map": "/azharkhan1/FB-Delete-Post-Update.git/static/js/main.7ccb9705.chunk.js.map",
-    "runtime-main.js": "/azharkhan1/FB-Delete-Post-Update.git/static/js/runtime-main.8284ec36.js",
-    "runtime-main.js.map": "/azharkhan1/FB-Delete-Post-Update.git/static/js/runtime-main.8284ec36.js.map",
+    "main.js": "/azharkhan1/FB-Delete-Post-Update.git/static/js/main.97037740.chunk.js",
+    "main.js.map": "/azharkhan1/FB-Delete-Post-Update.git/static/js/main.97037740.chunk.js.map",
+    "runtime-main.js": "/azharkhan1/FB-Delete-Post-Update.git/static/js/runtime-main.9eff947e.js",
+    "runtime-main.js.map": "/azharkhan1/FB-Delete-Post-Update.git/static/js/runtime-main.9eff947e.js.map",
     "static/css/2.150d169a.chunk.css": "/azharkhan1/FB-Delete-Post-Update.git/static/css/2.150d169a.chunk.css",
-    "static/js/2.88e26934.chunk.js": "/azharkhan1/FB-Delete-Post-Update.git/static/js/2.88e26934.chunk.js",
-    "static/js/2.88e26934.chunk.js.map": "/azharkhan1/FB-Delete-Post-Update.git/static/js/2.88e26934.chunk.js.map",
-    "static/js/3.6ac067e6.chunk.js": "/azharkhan1/FB-Delete-Post-Update.git/static/js/3.6ac067e6.chunk.js",
-    "static/js/3.6ac067e6.chunk.js.map": "/azharkhan1/FB-Delete-Post-Update.git/static/js/3.6ac067e6.chunk.js.map",
+    "static/js/2.bdcabf8c.chunk.js": "/azharkhan1/FB-Delete-Post-Update.git/static/js/2.bdcabf8c.chunk.js",
+    "static/js/2.bdcabf8c.chunk.js.map": "/azharkhan1/FB-Delete-Post-Update.git/static/js/2.bdcabf8c.chunk.js.map",
+    "static/js/3.3fc0ed2d.chunk.js": "/azharkhan1/FB-Delete-Post-Update.git/static/js/3.3fc0ed2d.chunk.js",
+    "static/js/3.3fc0ed2d.chunk.js.map": "/azharkhan1/FB-Delete-Post-Update.git/static/js/3.3fc0ed2d.chunk.js.map",
     "index.html": "/azharkhan1/FB-Delete-Post-Update.git/index.html",
     "static/css/2.150d169a.chunk.css.map": "/azharkhan1/FB-Delete-Post-Update.git/static/css/2.150d169a.chunk.css.map",
     "static/css/main.0a518d90.chunk.css.map": "/azharkhan1/FB-Delete-Post-Update.git/static/css/main.0a518d90.chunk.css.map",
-    "static/js/2.88e26934.chunk.js.LICENSE.txt": "/azharkhan1/FB-Delete-Post-Update.git/static/js/2.88e26934.chunk.js.LICENSE.txt"
+    "static/js/2.bdcabf8c.chunk.js.LICENSE.txt": "/azharkhan1/FB-Delete-Post-Update.git/static/js/2.bdcabf8c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8284ec36.js",
+    "static/js/runtime-main.9eff947e.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.88e26934.chunk.js",
+    "static/js/2.bdcabf8c.chunk.js",
     "static/css/main.0a518d90.chunk.css",
-    "static/js/main.7ccb9705.chunk.js"
+    "static/js/main.97037740.chunk.js"
   ]
 }
