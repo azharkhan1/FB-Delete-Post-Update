@@ -1,6 +1,6 @@
 
 import './App.css';
-import React, { useState, useRef , useEffect} from "react"
+import React, { useState, useRef, useEffect } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -10,11 +10,14 @@ function App() {
   const [userPosts, setPost] = useState([]);
   var updatedValue = useRef();
 
-  
-useEffect(()=>{
-  var userPosts = JSON.parse(localStorage.getItem("userPosts"));
-  setPost(userPosts);
-},[])
+
+  useEffect(() => {
+    var userPosts = JSON.parse(localStorage.getItem("userPosts"));
+    if (userPosts) {
+      setPost(userPosts);
+
+    }
+  }, [])
 
   function post(e) {
     e.preventDefault();
@@ -24,7 +27,7 @@ useEffect(()=>{
       edit: false,
     })
     setPost([...userPosts], new_post)
-    localStorage.setItem("userPosts",JSON.stringify(userPosts));
+    localStorage.setItem("userPosts", JSON.stringify(userPosts));
     document.getElementById("username").value = " "
     document.getElementById("userpost").value = " "
 
@@ -67,7 +70,7 @@ useEffect(()=>{
               placeholder="Enter post"
             // onChange={(e) => e.target.value = post}
             />
-      
+
             <br />
           </div>
           <button type="submit" className="btn btn-primary">Post</button>
@@ -98,13 +101,13 @@ useEffect(()=>{
                   <img className="postImage" />
                   <button
                     className="btn btn-primary"
-                    onClick={(e)=> deleteItem(index)}
+                    onClick={(e) => deleteItem(index)}
                   >Delete Post</button>
                   {value.edit === true ? <input className="mt-2" placeholder="enter value to update" ref={updatedValue} /> : ""}
                   {value.edit === true ? <button className="mt-2" onClick={(e) => updateValue(index)}>Update value</button> : ""}
                   {
                     value.edit === false
-                      ? 
+                      ?
                       <button
                         className="mt-2"
                         onClick={(e) => editValue(index)}
