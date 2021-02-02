@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FB-Delete-Post-Update/static/css/main.5ab36fd2.chunk.css",
-    "main.js": "/FB-Delete-Post-Update/static/js/main.6cbbb251.chunk.js",
-    "main.js.map": "/FB-Delete-Post-Update/static/js/main.6cbbb251.chunk.js.map",
+    "main.js": "/FB-Delete-Post-Update/static/js/main.17e97b3b.chunk.js",
+    "main.js.map": "/FB-Delete-Post-Update/static/js/main.17e97b3b.chunk.js.map",
     "runtime-main.js": "/FB-Delete-Post-Update/static/js/runtime-main.31361a57.js",
     "runtime-main.js.map": "/FB-Delete-Post-Update/static/js/runtime-main.31361a57.js.map",
     "static/css/2.150d169a.chunk.css": "/FB-Delete-Post-Update/static/css/2.150d169a.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.bdcabf8c.chunk.js",
     "static/css/main.5ab36fd2.chunk.css",
-    "static/js/main.6cbbb251.chunk.js"
+    "static/js/main.17e97b3b.chunk.js"
   ]
 }
